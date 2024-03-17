@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Bayon&family=Concert+One&family=Content:wght@400;700&family=Koulen&family=Lato&family=Noto+Sans+Khmer&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body{
+    height: 820vh;
+    background-color: #f4e1ef;
+}
+.menu .container-fluid{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.search{
+    height: 40px;
+    outline: none;
+    border: 2px solid rgb(222, 64, 117);
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn-submit{
+    outline: none;
+    border: 2px solid rgb(222, 64, 117);
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(222, 64, 117);
+    color: #fff;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(222, 64, 117);
+}
+/* ==============Background============== */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Image/Bookstore.jpg);
+    background-size: cover;
+}
+.main .main-text{
+    margin-top: 10rem;
+}
+.main .text-white .line1{
+    width: 30%;
+    height: 4px;
+    background-color: rgb(222, 64, 117);
+}
+/* ==============Product============== */
+.product .line2{
+    width: 25%;
+    height: 4px;
+    background-color: rgb(222, 64, 117);
+}
+.star{
+    color: orange;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.card-body{
+    border: 1px dashed #444;
+}
+/* =========== Bag ============= */
+.line3{
+    width: 25%;
+    height: 4px;
+    background-color: rgb(222, 64, 117);
+}
+/* ========== Best Product =========== */
+.best-product{
+    background-color: #e7e6e6;
+}
+.best-product .line2{
+    width: 25%;
+    height: 4px;
+    background-color: rgb(222, 64, 117);
+}
+.best-product i{
+    color: rgb(222, 64, 117);
+    font-size: 55px;
+}
+.best-product #p{
+    color: #7d7d7d;
+    padding-top: 1rem;
+}
+.best-product .card-body{
+    border: 1px solid #bdbcbc;
+    border-radius: 3px;
+}
+.best-product .card-body:hover{
+    background-color:rgb(249, 150, 183) ;
+}
+.best-product .card-body:hover i{
+    color: #fff;
+}
+.best-product .card-body:hover b{
+   color: #fff;
+}   
+/* ========= New Arrival ========== */
+.new-arrival .text .starpro{
+    color: orange;
+    font-size: 20px;
+}
+.new-arrival .card-body{
+    border: 1px solid #bdbcbc;
+    border-radius: 3px;
+}
+#ppro{
+    font-size: 20px;
+}
+/* ========= Footer ========== */
+/* .footer{
+    width: 100%;
+    background-color: rgb(249, 150, 183);
+} */
+.footer .about  ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.footer .about a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.footer .follow ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.footer .follow a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.footer .follow i{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .product .product-box3{
+        margin-top: 1rem;
+    }
+    .product1 .pro-box3{
+        margin-top: 1rem;
+    }
+    .main{
+        height :80vh;
+    }
+    .best-product .store3{
+        margin-top: 1.5rem;
+    }
+    .best-product .store4{
+        margin-top: 1.5rem;
+    }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
